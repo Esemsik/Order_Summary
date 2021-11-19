@@ -1,0 +1,155 @@
+body{
+    background: url(images/pattern-background-desktop.svg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 15% 15%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.menu
+{
+    width: 450px;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 40%;
+    right: 40%;
+    border-radius: 15px;
+    -webkit-box-shadow: -3px 9px 24px -18px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -3px 9px 24px -18px rgba(66, 68, 90, 1);
+    box-shadow: -3px 9px 24px -18px rgba(66, 68, 90, 1);
+    background-color: #fff;
+}
+
+.logo img
+{
+    display: block;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.headline
+{
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description
+{
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.submenu
+{
+    width: 350px;
+    margin-top: 30px;
+    background-color: hsl(225, 100%, 98%);
+    border: 1px solid hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.icon
+{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.option
+{
+    display: inline-block;
+    text-align: center;
+}
+
+.option p
+{
+    margin: 5px;
+}
+
+.link
+{
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.link :visited
+{
+    color: hsl(245, 75%, 52%);
+}
+
+.proceed
+{
+    font-weight: 700;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    border: solid #fff;
+    -webkit-box-shadow: -3px 9px 24px -18px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -3px 9px 24px -18px rgba(66, 68, 90, 1);
+    box-shadow: -3px 9px 24px -18px rgba(66, 68, 90, 1);
+}
+
+.proceed:hover
+{
+    cursor: pointer;
+}
+
+.cancel
+{
+    width: 350px;
+    font-weight: 700;
+    margin-top:  20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #fff;
+    border: solid #fff;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover
+{
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    transition: all 0.5s;
+}
